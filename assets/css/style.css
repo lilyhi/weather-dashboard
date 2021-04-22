@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    background-color: rgb(126, 126, 244);
+    color: rgb(109, 5, 206);
+    border-radius: 0;
+    border-bottom: 4px dotted black;
+}
+
+.form-style {
+    padding: 8%;
+}
+
+.text-box {
+    padding: 8px 11px;
+    border-color: cadetblue;
+    border-style: solid;
+}
+
+.searchBtn {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 36%;
+    height: 36%;
+}
+
+.forecast-style {
+    font-weight: 500;
+    font-size: 40px;
+}

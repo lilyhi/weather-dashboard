@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Weather Dashboard</title>
 </head>
 <body>
+    <header class="jumbotron">
+        <h1>Weather Dashboard</h1>
+    </header>
     
+    <div>
+        <div class="col-md-5">
+        <form class="container form-style" style="float:left">
+            <h3>Search for a City:</h3></br>
+            <input type="text" class="text-box" placeholder="Long Beach"/></br></br>
+            <button type="button" class="btn btn-primary searchBtn" id="search-btn">Search!</button>
+        </form>
+    </div>
+    <div class="col-md-8">
+        <div class="row">
+            <div class="col-md-12">
+
+            </div>
+        </div>
+        <h3 class="forecast-style">5-Day Forecast:</h3>
+
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

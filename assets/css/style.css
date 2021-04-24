@@ -11,6 +11,8 @@
     color: rgb(109, 5, 206);
     border-radius: 0;
     border-bottom: 4px dotted black;
+    /* height: 10px; */
+    margin-bottom: 20px;
 }
 
 .form-style {

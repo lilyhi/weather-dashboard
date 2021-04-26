@@ -20,13 +20,14 @@
         <h1>Weather Dashboard</h1>
     </header>
     
-    <div>
-        <div class="col-md-5">
-        <form class="container form-style" style="float:left">
+    <div class="row">
+
+        <div class="col-md-4 p-1 m-1">
+        <div class="container form-style" style="float:left">
             <h3>Search for a City:</h3></br>
             <input type="text" class="text-box" id="city" placeholder="Long Beach"/></br></br>
             <button type="button" class="btn btn-primary searchBtn" id="search-btn">Search!</button>
-        </form>
+        </div>
     </div>
     <div class="col-md-8">
         <div class="row">
@@ -35,9 +36,11 @@
             </div>
         </div>
         <p class="forecast-style">5-Day Forecast:</p>
-        <div id="forecast"></div>
+        <div id="forecast" class="row">
+            
+        </div>
     </div>
-    
+</div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

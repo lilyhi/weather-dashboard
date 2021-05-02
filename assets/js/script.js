@@ -48,7 +48,7 @@ var weatherInfo = function(lat,lon) {
                 var cityName = cityNameEl.value;
                 var output = "";
                 output+="<h1>"+ cityName+ "</h1>";
-                output+="<img src='http://openweathermap.org/img/wn/" + data.current.weather[0].icon + ".png'>";
+                output+="<img src='https://openweathermap.org/img/wn/" + data.current.weather[0].icon + ".png'>";
                 output+="<p>Current Temperature: " + data.current.temp+"&deg;F</p>"
                 output+="<p>Wind Speed: " + data.current.wind_speed+" MPH</p>";
                 output+="<p>Humidity: " + data.current.humidity+"%</p>";
@@ -92,7 +92,7 @@ var weatherInfo = function(lat,lon) {
                         // weather icon
                         var iconEle = document.createElement("p");
                         iconEle.setAttribute('class', 'card-text'); 
-                        iconEle.innerHTML= "<img src='http://openweathermap.org/img/wn/" + data.daily[i].weather[0].icon + ".png'>";
+                        iconEle.innerHTML= "<img src='https://openweathermap.org/img/wn/" + data.daily[i].weather[0].icon + ".png'>";
                         // console.log(data.daily[i].weather[0].icon);
 
                         //temperature 
@@ -133,7 +133,7 @@ var weatherInfo = function(lat,lon) {
 
 var getCoordinates = function(city) {
     // console.log(city);
-    var apiURL = 'http://api.openweathermap.org/geo/1.0/direct?q='+city+'&limit=5&appid='+apiKey; 
+    var apiURL = 'https://api.openweathermap.org/geo/1.0/direct?q='+city+'&limit=5&appid='+apiKey; 
     // make a get request to url
 
     fetch(apiURL).then(function(response) {

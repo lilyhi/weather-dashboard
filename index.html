@@ -20,23 +20,23 @@
         <h1>Weather Dashboard</h1>
     </header>
     
-    <div class="row">
-
+    <div class="weather-div">
         <div class="col-md-4 p-1 m-1">
-        <div class="container form-style" style="float:left">
+        <div class="container form-style">
             <h3>Search for a City:</h3></br>
             <input type="text" class="text-box" id="city" placeholder="Long Beach"/></br></br>
             <button type="button" class="btn btn-primary searchBtn" id="search-btn">Search!</button>
+            <div id="cities"></div>
         </div>
     </div>
-    <div class="col-md-8">
-        <div class="row">
-            <div id="current" class="col-md-12">
+    <div class="col-md-8 center">
+        <div>
+            <div id="current" class="weather-icon">
 
             </div>
         </div>
         <p class="forecast-style">5-Day Forecast:</p>
-        <div id="forecast" class="row">
+        <div id="forecast" class="row weather-icon">
             
         </div>
     </div>

@@ -4,9 +4,9 @@
     margin: 0;
 }
 
-h1 {
+/* h1 {
 
-}
+} */
 
 .jumbotron {
     font-family: "Open Sans", sans-serif;
@@ -18,6 +18,10 @@ h1 {
     /* height: 10px; */
     margin-bottom: 20px;
 }
+
+/* .weather-div {
+    margin-top: 200px;
+} */
 
 .form-style {
     padding: 8%;
@@ -40,9 +44,22 @@ h1 {
     height: 36%;
 }
 
+#current {
+    margin-left: 0;
+    padding-left: 0;
+}
+
 .forecast-style {
     font-weight: 500;
     font-size: 40px;
+}
+
+.center {
+    margin: auto;
+    /* width: 50%;
+    padding: 10px; */
+    top: -190px;
+    left: 80px;
 }
 
 /* .uvi {

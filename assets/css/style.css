@@ -4,24 +4,22 @@
     margin: 0;
 }
 
-/* h1 {
 
-} */
+html,
+body {
+    font-family: "Montserrat Alternates", sans-serif;
+}
 
 .jumbotron {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     text-align: center;
     background-color: rgb(126, 126, 244);
     color: rgb(109, 5, 206);
     border-radius: 0;
     border-bottom: 4px dotted black;
-    /* height: 10px; */
     margin-bottom: 20px;
 }
 
-/* .weather-div {
-    margin-top: 200px;
-} */
 
 .form-style {
     padding: 8%;
@@ -56,16 +54,17 @@
 
 .center {
     margin: auto;
-    /* width: 50%;
-    padding: 10px; */
     top: -190px;
     left: 80px;
 }
 
-/* .uvi {
+#cities p {
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(118, 43, 238);
+    cursor: pointer;
+    margin: 4px 2px;
+    width: 35%;
+    text-align: center;
     
 }
-
-.current {
-
-} */
